@@ -1,0 +1,62 @@
+body
+{
+    background: #323975;
+    overflow: hidden;
+    margin: 0;
+}
+
+.sn
+{
+    z-index: 1;
+    width: 20px;
+    font-size: 30px;
+    color: white;
+    border-radius: 50px;
+    position: absolute;
+    top: -50px;
+    text-shadow: 5px 5px 2px #0007;
+    animation: fall linear forwards;
+}
+
+@keyframes fall
+{
+    to
+    {
+        transform: translateY(105vh);
+    }
+}
+
+.pole
+{
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    margin-top: -50px;
+}
+
+.time
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 3em;
+    margin: 0 15px;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Muli', sans-serif;
+    text-shadow: 5px 5px 5px #0007;
+}
+
+.time h1
+{
+    margin-bottom: 0;
+}
+
+.time small
+{
+    color: #ccc;
+}
