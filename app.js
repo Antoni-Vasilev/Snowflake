@@ -24,7 +24,8 @@ function createsnow()
     snow_flake.style.left = Math.random() * window.innerWidth - 20 + 'px';
     snow_flake.style.animationDuration = Math.random() * 5 + 3 + "s";
     snow_flake.style.opacity = Math.random() + 0.1;
-    snow_flake.innerHTML = "&#10052";
+    // snow_flake.innerHTML = "&#10052";
+    snow_flake.innerHTML = "📒";
     snow_flake.style.fontSize = Math.random() * 40 + 20 + "px";
 
     document.body.appendChild(snow_flake);
