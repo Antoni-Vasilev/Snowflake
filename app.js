@@ -1,6 +1,6 @@
 setInterval(createsnow, 50);
 setInterval(() => {
-    const endTime = new Date('May 17 ' + new Date().getFullYear() + ' 08:30:00');
+    const endTime = new Date('May 17 ' + new Date().getFullYear() + ' 08:00:00');
     const daysEl = document.getElementById("day");
     const hrEl = document.getElementById("hr");
     const minEl = document.getElementById("min");
